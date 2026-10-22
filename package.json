@@ -1,0 +1,14 @@
+{
+  "name": "musings-blog",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal personal blog with an admin panel.",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "engines": { "node": ">=18" }
+}
